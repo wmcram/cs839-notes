@@ -42,3 +42,12 @@ Exercises:
 - Applying H to first qubit of |00> then running both through a CNOT produces 1/sqrt(2) * (|00>+|11>), an entangled state.
 - CNOT is an involution
 - CNOT can flip control qubit: CNOT|+-> = |-->
+
+## Part III: Universal Quantum Computing
+- A quantum computer applies a series of gates to some qubits before measuring the final state in the computational basis
+- Any classical circuit can be expressed as a quantum circuit
+- Toffoli gate has two control qubits and one target, target is flipped only if both controls are set
+- Having target at 0 allows Toffoli to simulate AND
+- Exercise: To build a NAND gate, just attach the X gate to the target output of our simulated AND gate
+- Exercise: We can also build a NAND gate with just Toffoli by letting the target bit start at 1
+- Toffoli is also an involution
