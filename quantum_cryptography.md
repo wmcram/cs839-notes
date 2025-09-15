@@ -1,5 +1,5 @@
 # Quantum Cryptography: Public Key Distribution and Coin Tossing
-Summary: 
+Summary: The paper outlines similar methods for generating a one-time pad in presence of eavesdropping, as well as verifying a coin toss between two untrusting parties. Both use a quantum channel of photons and some probabilistic methods, typically randomizing the basis prepared/measured.
 
 
 ## Quantum Crypto
